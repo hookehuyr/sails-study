@@ -1,0 +1,43 @@
+# 依赖目录
+node_modules/
+
+# 日志文件
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 编辑器目录和文件
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 环境配置文件
+.env
+.env.local
+.env.*.local
+
+# Sails.js 特定文件
+.tmp/
+.waterline/
+.node_history
+
+# 构建输出目录
+dist/
+build/
+
+# 历史记录目录
+.history/
+
+# 测试覆盖率目录
+coverage/
+
+# 本地配置文件
+config/local.js
