@@ -3,6 +3,10 @@
  * 商品控制器
  */
 
+const sails = require('sails');
+// 导入商品模型
+const Product = sails.models.product;
+
 module.exports = {
   /**
    * 获取商品列表

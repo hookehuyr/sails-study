@@ -1,13 +1,9 @@
 /*
  * @Date: 2025-05-03 11:17:21
  * @LastEditors: hookehuyr hookehuyr@gmail.com
- * @LastEditTime: 2025-05-03 11:17:22
- * @FilePath: /test-study/api/models/Order.js
- * @Description: 文件描述
- */
-/**
- * Order.js
- * 订单模型
+ * @LastEditTime: 2025-05-03 20:24:21
+ * @FilePath: /sails-study/back/api/models/Order.js
+ * @Description: 订单模型
  */
 
 module.exports = {

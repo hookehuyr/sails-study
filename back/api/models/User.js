@@ -1,14 +1,12 @@
 /*
  * @Date: 2025-05-03 11:17:04
  * @LastEditors: hookehuyr hookehuyr@gmail.com
- * @LastEditTime: 2025-05-03 11:17:05
- * @FilePath: /test-study/api/models/User.js
- * @Description: 文件描述
+ * @LastEditTime: 2025-05-03 20:24:42
+ * @FilePath: /sails-study/back/api/models/User.js
+ * @Description: 用户模型
  */
-/**
- * User.js
- * 用户模型
- */
+
+const _ = require('lodash');
 
 module.exports = {
   attributes: {

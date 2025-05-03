@@ -3,6 +3,14 @@
  * 订单控制器
  */
 
+const sails = require('sails');
+// 导入订单模型
+const Order = sails.models.order;
+// 导入订单项模型
+const OrderItem = sails.models.orderitem;
+// 导入商品模型
+const Product = sails.models.product;
+
 module.exports = {
   /**
    * 创建订单

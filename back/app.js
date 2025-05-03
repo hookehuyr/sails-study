@@ -3,10 +3,7 @@
  * @LastEditors: hookehuyr hookehuyr@gmail.com
  * @LastEditTime: 2025-05-03 16:42:34
  * @FilePath: /back/app.js
- * @Description: 文件描述
- */
-/**
- * app.js - Sails.js 应用入口文件
+ * @Description: app.js - Sails.js 应用入口文件
  * 配置和启动Sails.js应用服务器
  */
 

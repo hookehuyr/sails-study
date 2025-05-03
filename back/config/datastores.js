@@ -3,11 +3,7 @@
  * @LastEditors: hookehuyr hookehuyr@gmail.com
  * @LastEditTime: 2025-05-03 15:08:49
  * @FilePath: /sails-study/back/config/datastores.js
- * @Description: 文件描述
- */
-/**
- * Datastores
- * 数据库配置文件
+ * @Description: 数据库配置文件
  */
 
 module.exports.datastores = {

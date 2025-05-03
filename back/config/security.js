@@ -3,11 +3,7 @@
  * @LastEditors: hookehuyr hookehuyr@gmail.com
  * @LastEditTime: 2025-05-03 12:05:12
  * @FilePath: /sails-study/back/config/security.js
- * @Description: 文件描述
- */
-/**
- * security.js
- * 安全配置文件
+ * @Description: 安全配置文件
  */
 
 module.exports.security = {

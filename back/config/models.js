@@ -1,13 +1,9 @@
 /*
  * @Date: 2025-05-03 12:04:44
  * @LastEditors: hookehuyr hookehuyr@gmail.com
- * @LastEditTime: 2025-05-03 12:04:45
+ * @LastEditTime: 2025-05-03 20:25:24
  * @FilePath: /sails-study/back/config/models.js
- * @Description: 文件描述
- */
-/**
- * models.js
- * 全局模型配置
+ * @Description: 全局模型配置
  */
 
 module.exports.models = {

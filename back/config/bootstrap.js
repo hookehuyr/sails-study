@@ -3,11 +3,7 @@
  * @LastEditors: hookehuyr hookehuyr@gmail.com
  * @LastEditTime: 2025-05-03 15:36:53
  * @FilePath: /sails-study/back/config/bootstrap.js
- * @Description: 文件描述
- */
-/**
- * bootstrap.js
- * 应用启动配置文件
+ * @Description: 应用启动配置文件
  */
 
 const sails = require('sails');

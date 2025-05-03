@@ -1,13 +1,9 @@
 /*
  * @Date: 2025-05-03 11:16:55
  * @LastEditors: hookehuyr hookehuyr@gmail.com
- * @LastEditTime: 2025-05-03 19:17:47
+ * @LastEditTime: 2025-05-03 20:25:33
  * @FilePath: /sails-study/back/config/routes.js
- * @Description: 文件描述
- */
-/**
- * Route Mappings
- * 路由配置文件
+ * @Description: 路由配置文件
  */
 
 // 路由日志记录函数

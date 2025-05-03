@@ -1,13 +1,9 @@
 /*
  * @Date: 2025-05-03 12:05:03
  * @LastEditors: hookehuyr hookehuyr@gmail.com
- * @LastEditTime: 2025-05-03 19:21:36
+ * @LastEditTime: 2025-05-03 20:25:05
  * @FilePath: /sails-study/back/config/http.js
- * @Description: 文件描述
- */
-/**
- * http.js
- * HTTP中间件配置
+ * @Description: HTTP中间件配置
  */
 
 module.exports.http = {
@@ -16,7 +12,7 @@ module.exports.http = {
    */
   middleware: {
     order: [
-      'cookieParser',
+      // 'cookieParser',
       'session',
       'bodyParser',
       'requestLogger',
@@ -161,21 +157,21 @@ module.exports.http = {
     // },
 
     // TODO: 待完善
-    cookieParser: (function () {
-      try {
-        const cookieParser = require('cookie-parser');
-        const secret = '1234567890'; // 用于签名 Cookie 的密钥
-        const parser = cookieParser(secret, {
-          // 其他配置选项
-          maxAge: 3600000, // Cookie 的有效时间（毫秒）
-          path: '/', // Cookie 的路径
-          httpOnly: true, // 确保 Cookie 只能通过 HTTP(S) 协议访问
-        });
-        return parser()
-      } catch (error) {
-        console.error('[CookieParser] 初始化 cookie-parser 中间件时发生错误:', error.message);
-      }
-    })(),
+    // cookieParser: (function () {
+    //   try {
+    //     const cookieParser = require('cookie-parser');
+    //     const secret = '1234567890'; // 用于签名 Cookie 的密钥
+    //     const parser = cookieParser(secret, {
+    //       // 其他配置选项
+    //       maxAge: 3600000, // Cookie 的有效时间（毫秒）
+    //       path: '/', // Cookie 的路径
+    //       httpOnly: true, // 确保 Cookie 只能通过 HTTP(S) 协议访问
+    //     });
+    //     return parser()
+    //   } catch (error) {
+    //     console.error('[CookieParser] 初始化 cookie-parser 中间件时发生错误:', error.message);
+    //   }
+    // })(),
 
     /**
      * 压缩中间件配置

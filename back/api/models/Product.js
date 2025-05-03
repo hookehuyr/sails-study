@@ -1,13 +1,9 @@
 /*
  * @Date: 2025-05-03 11:17:13
  * @LastEditors: hookehuyr hookehuyr@gmail.com
- * @LastEditTime: 2025-05-03 11:17:14
- * @FilePath: /test-study/api/models/Product.js
- * @Description: 文件描述
- */
-/**
- * Product.js
- * 商品模型
+ * @LastEditTime: 2025-05-03 20:22:40
+ * @FilePath: /sails-study/back/api/models/Product.js
+ * @Description: 商品模型
  */
 
 module.exports = {
