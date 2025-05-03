@@ -13,7 +13,12 @@ module.exports = {
    * @param {Object} res - 响应对象
    */
   register: async function(req, res) {
+    // 获取未签名的 Cookie
+    const userToken = req.cookies['userToken'];
+    console.warn(`[Register] 未签名的 Cookie: ${userToken}`);
+
     try {
+      // 数据验证阶段
       const { username, email, password, phone } = req.body;
 
       // 检查用户名或邮箱是否已存在

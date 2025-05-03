@@ -1,7 +1,7 @@
 /*
  * @Date: 2025-05-03 15:20:00
  * @LastEditors: hookehuyr hookehuyr@gmail.com
- * @LastEditTime: 2025-05-03 15:20:00
+ * @LastEditTime: 2025-05-03 19:17:27
  * @FilePath: /sails-study/back/config/session.js
  * @Description: Sails.js会话配置文件
  */
@@ -10,7 +10,6 @@
  * session.js
  * 会话配置文件
  */
-
 module.exports.session = {
     /**
      * 会话密钥

@@ -18,7 +18,7 @@ importers:
         specifier: ^1.7.4
         version: 1.8.0
       cookie-parser:
-        specifier: ^1.4.6
+        specifier: ^1.4.7
         version: 1.4.7
       jsonwebtoken:
         specifier: ^9.0.2
@@ -26,6 +26,9 @@ importers:
       sails:
         specifier: ^1.5.8
         version: 1.5.14
+      sails-hook-openapi:
+        specifier: ^1.1.7
+        version: 1.1.7
       sails-hook-orm:
         specifier: ^4.0.0
         version: 4.0.3
@@ -951,6 +954,9 @@ packages:
 
   sails-generate@2.0.13:
     resolution: {integrity: sha512-ky+YcxSe2pBTohfIZIxU+XARuYu7ZxjFOTvWcivfF3oVHBmpc22VihbNjotNA4QWdKw13vfHWvoJpyHjccGOoA==}
+
+  sails-hook-openapi@1.1.7:
+    resolution: {integrity: sha512-MaZDuOnX70KRHDbZ3t4XT3urfur02KE67aKf99OCdyGQiIOq/mTEGFwgZjxeJcf0clvdX3B/iPV6IIPMMGEGtA==}
 
   sails-hook-orm@4.0.3:
     resolution: {integrity: sha512-/PrAHwsjbby0PK27LpLamYMUz4CedVYW3vr6JFSG9OncoeUG9qgwcNjeWNxo2HuEfHDal92KISXkcdRX7jh5Eg==}
@@ -2177,6 +2183,8 @@ snapshots:
       read: 1.0.7
       reportback: 2.0.2
       sails.io.js-dist: 1.2.1
+
+  sails-hook-openapi@1.1.7: {}
 
   sails-hook-orm@4.0.3:
     dependencies:
