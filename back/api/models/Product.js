@@ -36,7 +36,6 @@ module.exports = {
     // 商品库存
     stock: {
       type: 'number',
-      required: true,
       min: 0,
       defaultsTo: 0
     },

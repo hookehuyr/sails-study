@@ -29,16 +29,39 @@ module.exports.http = {
     /**
      * body解析器配置
      */
-    bodyParser: {
-      json: {
+    bodyParser: (function() {
+      const bodyParser = require('body-parser');
+      const jsonParser = bodyParser.json({
         strict: true,
         limit: '10mb'
-      },
-      urlencoded: {
+      });
+      const urlencodedParser = bodyParser.urlencoded({
         extended: true,
         limit: '10mb'
-      }
-    }
+      });
+      return function(req, res, next) {
+        jsonParser(req, res, function(err) {
+          if (err) return next(err);
+          urlencodedParser(req, res, next);
+        });
+      };
+    })(),
+
+    /**
+     * Cookie解析器配置
+     */
+    cookieParser: function() {
+      const cookieParser = require('cookie-parser');
+      return cookieParser();
+    },
+
+    /**
+     * 压缩中间件配置
+     */
+    compress: (function() {
+      const compression = require('compression');
+      return compression();
+    })()
   },
 
   /**

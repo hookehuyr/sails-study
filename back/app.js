@@ -1,7 +1,7 @@
 /*
  * @Date: 2025-05-03 12:04:11
  * @LastEditors: hookehuyr hookehuyr@gmail.com
- * @LastEditTime: 2025-05-03 12:06:19
+ * @LastEditTime: 2025-05-03 15:13:31
  * @FilePath: /sails-study/back/app.js
  * @Description: 文件描述
  */
@@ -14,13 +14,6 @@ const sails = require('sails');
 
 // 启动Sails应用
 sails.lift({
-    // 应用启动配置
-    hooks: {
-        // 启用ORM钩子用于数据库操作
-        orm: true,
-        // 启用HTTP服务器
-        http: true
-    },
     // 日志级别设置
     log: {
         level: 'info'

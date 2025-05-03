@@ -11,6 +11,15 @@ importers:
       bcryptjs:
         specifier: ^2.4.3
         version: 2.4.3
+      body-parser:
+        specifier: ^1.20.2
+        version: 1.20.3
+      compression:
+        specifier: ^1.7.4
+        version: 1.8.0
+      cookie-parser:
+        specifier: ^1.4.6
+        version: 1.4.7
       jsonwebtoken:
         specifier: ^9.0.2
         version: 9.0.2
@@ -199,6 +208,10 @@ packages:
 
   compression@1.7.1:
     resolution: {integrity: sha512-Mp6cFKqe7O3Y5X4CQDeKLJgi1vrimySE7p2jTYIr8Z7N+uOamR0wrbkP4/0q3VPbEhNhnHEknPC0/EDp7mwfig==}
+    engines: {node: '>= 0.8.0'}
+
+  compression@1.8.0:
+    resolution: {integrity: sha512-k6WLKfunuqCYD3t6AsuPGvQWaKwuLLh2/xHNcX4qE+vIfDNXpSqnrhwA7O53R7WVQUnt8dVAIW+YHr7xTgOgGA==}
     engines: {node: '>= 0.8.0'}
 
   concat-map@0.0.1:
@@ -744,6 +757,10 @@ packages:
 
   negotiator@0.6.3:
     resolution: {integrity: sha512-+EUsqGPLsM+j/zdChZjsnX51g4XrHFOIXwfnCVPGlQk/k5giakcKsuxCObBRu6DSm9opw/O6slWbJdghQM4bBg==}
+    engines: {node: '>= 0.6'}
+
+  negotiator@0.6.4:
+    resolution: {integrity: sha512-myRT3DiWPHqho5PrJaIRyaMv2kgYf0mUVgBNOYMuCH5Ki1yEiQaf/ZJuQ62nvpc44wL5WDbTX7yGJi1Neevw8w==}
     engines: {node: '>= 0.6'}
 
   nodemon@3.1.10:
@@ -1376,6 +1393,18 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+  compression@1.8.0:
+    dependencies:
+      bytes: 3.1.2
+      compressible: 2.0.18
+      debug: 2.6.9
+      negotiator: 0.6.4
+      on-headers: 1.0.2
+      safe-buffer: 5.2.1
+      vary: 1.1.2
+    transitivePeerDependencies:
+      - supports-color
+
   concat-map@0.0.1: {}
 
   connect@3.6.5:
@@ -1945,6 +1974,8 @@ snapshots:
       sqlstring: 2.3.1
 
   negotiator@0.6.3: {}
+
+  negotiator@0.6.4: {}
 
   nodemon@3.1.10:
     dependencies:

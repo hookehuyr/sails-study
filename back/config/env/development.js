@@ -1,7 +1,7 @@
 /*
  * @Date: 2025-05-03 12:04:37
  * @LastEditors: hookehuyr hookehuyr@gmail.com
- * @LastEditTime: 2025-05-03 12:14:29
+ * @LastEditTime: 2025-05-03 15:07:38
  * @FilePath: /sails-study/back/config/env/development.js
  * @Description: Sails.js开发环境配置文件，用于设置开发环境特定的配置项
  */
@@ -40,7 +40,7 @@ module.exports = {
     datastores: {
         default: {
             adapter: 'sails-mysql',
-            url: 'mysql://root:password@localhost:3306/ecommerce_db',
+            url: 'mysql://root:huyirui520@localhost:3306/ecommerce_db',
         },
     },
 

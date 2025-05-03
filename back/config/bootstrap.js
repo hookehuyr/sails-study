@@ -1,7 +1,7 @@
 /*
  * @Date: 2025-05-03 12:05:33
  * @LastEditors: hookehuyr hookehuyr@gmail.com
- * @LastEditTime: 2025-05-03 12:05:34
+ * @LastEditTime: 2025-05-03 15:36:53
  * @FilePath: /sails-study/back/config/bootstrap.js
  * @Description: 文件描述
  */
@@ -9,6 +9,8 @@
  * bootstrap.js
  * 应用启动配置文件
  */
+
+const sails = require('sails');
 
 module.exports.bootstrap = async function(done) {
   // 在应用启动时执行的初始化代码
